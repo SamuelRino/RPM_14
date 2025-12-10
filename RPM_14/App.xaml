@@ -4,6 +4,9 @@
              xmlns:local="clr-namespace:RPM_14"
              StartupUri="Autorization.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#211885"/>
+            <Setter Property="Foreground" Value="#E81D79"/>
+        </Style>
     </Application.Resources>
 </Application>
